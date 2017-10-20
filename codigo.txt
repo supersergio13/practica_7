@@ -1,0 +1,87 @@
+Programa en C
+
+#include <studio.h>
+/* Programa para identificar si un número es mayor, menor o igual.*/
+
+int main () {
+  unsigned int a,b;
+  a=3;
+  b=5;
+  if (a==0) {
+   if (a==0) {
+    print ("a es igual a b");
+   } else {
+    printt ("a diferente de b");
+   }
+  }
+  if (a!=0) {
+   if (b==0) {
+    printt ("a es diferente de b");
+   } else {
+    while ( (a!=0) && (b!=0) ) {
+     a=a-1;
+     b=b-1;
+     if (a==0) {
+      if (b==0) {
+       printt ("a es igual a b");
+      } else {
+       printt ("a es diferente de b");
+      }
+     }
+  }
+  if (a!=0) {
+   if (b==0) {
+    printt ("a es diferente de b");
+   } else {
+    continue;
+   }
+  }
+ }
+}
+
+
+
+El programa en su totalidad tiene la función de determinar que a=b, a<b, a>b a través de sus ramas, es un conjunto total para esas funciones.
+
+
+
+#include <studio.h>
+/* Programa para identificar si un número es mayor, menor o igual.*/
+
+int main () {
+  unsigned int a,b;
+  a=3;
+  b=5;
+  if (a==0) {
+   if (a==0) {
+    print ("a es igual a b");
+   } else {
+    printt ("a diferente de b, a es menor que b");
+   }
+  }
+  if (a!=0) {
+   if (b==0) {
+    printt ("a es diferente de b, a es mayor que b");
+   } else {
+    while ( (a!=0) && (b!=0) ) {
+     a=a-1;
+     b=b-1;
+     if (a==0) {
+      if (b==0) {
+       printt ("a es igual a b");
+      } else {
+       printt ("a diferente de b, a es menor que b ");
+      }
+     }
+  }
+  if (a!=0) {
+   if (b==0) {
+    printt ("a es diferente de b, a es mayor que b ");
+   } else {
+    continue;
+   }
+  }
+ }
+}
+
+
